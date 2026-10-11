@@ -1,7 +1,42 @@
 {
-    "profiles": {},
-    "assets": {},
+    "profiles": {
+        "04": {
+            "id": "04",
+            "name": "Viva",
+            "assetCounter": 2,
+            "images": {
+                "head": "assets/profiles/P04_head.png",
+                "torso": "assets/profiles/P04_torso.png",
+                "l_arm": "assets/profiles/P04_l_arm.png",
+                "r_arm": "assets/profiles/P04_r_arm.png",
+                "l_leg": "assets/profiles/P04_l_leg.png",
+                "r_leg": "assets/profiles/P04_r_leg.png",
+                "l_shoe": "assets/profiles/P04_l_shoe.png",
+                "r_shoe": "assets/profiles/P04_r_shoe.png"
+            }
+        }
+    },
+    "assets": {
+        "T0401": {
+            "id": "T0401",
+            "display_name": "RKR Jacket",
+            "category": "torso",
+            "layer": 7,
+            "multi_layering": true,
+            "hide_defaults": [],
+            "file_name": "assets/processed/T0401.png"
+        },
+        "T0402": {
+            "id": "T0402",
+            "display_name": "Kitty T-Shirt",
+            "category": "torso",
+            "layer": 7,
+            "multi_layering": true,
+            "hide_defaults": [],
+            "file_name": "assets/processed/T0402.png"
+        }
+    },
     "counters": {
-        "profileCount": 0
+        "profileCount": 4
     }
 }
